@@ -1660,4 +1660,3 @@ else:
     st.markdown("- Disease Target Prioritization")
     st.markdown("#### Please start your navigation from the sidebar!")
     st.markdown("Users should note that drop-down menus also function as search boxes.")
-
