@@ -13,5 +13,5 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy the rest of the application code to the working directory
 COPY . .
 
-# Command to run the application
-CMD ["streamlit", "run", "stargazer.py"]
+# Set the entrypoint to run the Streamlit application with stargazer.py
+ENTRYPOINT ["streamlit", "run", "stargazer.py"]
